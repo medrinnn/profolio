@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+.header {
+    background-color: #0171f9;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+}
+
+body {
+    margin: 0;
+    font-family: Roboto, sans-serif;
+}
+
+.headers-links button {
+    background-color: #5865f2;
+    border: 1px #5865f2 solid;
+    border-radius: 9px;
+    padding: 5px;
+}
+
+.headers-links button:hover {
+    transition: 0.7s;
+    background-color: #3442d9;
+    border: 1px #3442d9 solid;
+}
+
+.headers-links a {
+    color: white;
+    padding: 5px 15px;
+    text-decoration: none;
+    border-radius: 15px;
+}
+
+.headers-links a:hover {
+    background-color: #2386f2;
+}
+.landing-page {
+    padding: 0;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    justify-content: space-between;
+    text-align: center;
+    background-color: #0171f9;
+    color: white;
+}
+
+.aboutme {
+    text-align: center;
+    padding-top: 100px;
+    padding-left: 400px;
+    padding-right: 400px;
+    padding-bottom: 100px;
+}
+
+.skills {
+    text-align: center;
+    background-color: #015cf9;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+}
+
+.skills-imgs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-top: 30px;
+    width: 100px; 
+    height: 100px;
+}
+
+.projects {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.footer {
+    background-color: #015cf9;
+    color: white;
+    padding: 30px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.footer a img {
+    width: 30px;
+    height: 30px;
+    transition: transform 0.3s ease;
+}
+
+.footer a img:hover {
+    transform: scale(1.1);
+}
