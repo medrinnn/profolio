@@ -13,25 +13,21 @@ body {
     font-family: Roboto, sans-serif;
 }
 
-.headers-links button {
-    background-color: #5865f2;
-    border: 1px #5865f2 solid;
-    border-radius: 9px;
-    padding: 5px;
-}
-
-.headers-links button:hover {
-    transition: 0.7s;
-    background-color: #3442d9;
-    border: 1px #3442d9 solid;
-}
-
 .headers-links a {
     color: white;
     padding: 5px 15px;
     text-decoration: none;
     border-radius: 15px;
 }
+
+.headers-links button {
+    background-color: #333333;
+    border: 1px #ffffff solid;
+    color: #ffffff;
+    border-radius: 9px;
+    padding: 5px 15px;
+}
+
 
 .headers-links a:hover {
     background-color: #2386f2;
@@ -103,4 +99,9 @@ body {
 
 .footer a img:hover {
     transform: scale(1.1);
+}
+
+.skills-imgs img:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
 }
